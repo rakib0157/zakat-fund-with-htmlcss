@@ -1,0 +1,210 @@
+/* common css start  */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+
+.common-btn{
+    background-color: slateblue;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Mina', sans-serif;
+    
+}
+.common-btn:hover{
+    background-color: teal;
+    color:white;
+    cursor: pointer;
+    transition: 1s;
+
+}
+/* common css end  */
+/* header area start  */
+
+header{
+    background: linear-gradient(to right,rgba(0,0,0,0.9), transparent ), url(./image/Banner-img.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+.header-container{
+    width: 550px;
+    margin-left: 150px;
+    
+}
+.header-heading{
+    color:#ffffff;
+    font-size: 55px;
+    margin: 20px 0px;
+    font-family: 'Kanit', sans-serif;
+    font-weight:800;
+    letter-spacing: 3px;
+}
+.header-para{
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+/* header area end  */
+/* banner section start  */
+#banner-section{
+    height: 700px;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+.left-banner{
+    width: 500px;
+}
+.banner-heading{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30px;
+    
+}
+.banner-para{
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    margin: 10px 0px;
+    opacity: 0.8;
+
+}
+.right-banner{
+    width: 600px;
+}
+.banner-img{
+    width: 95%;
+    border-radius: 10px;
+}
+/* banner section end  */
+/* card section start  */
+#card-section{
+    height: 700px;
+}
+.card-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    margin: 40px  auto;
+}
+.card-section-header{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card-container{
+    width: 400px;
+    height: 230px;
+    background-color:#fef4f5;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    
+
+}
+.card-img{
+    padding: 30px 20px;
+}
+.card-heading{
+    font-size: 24px;
+    font-family: 'Lato',sans-serif;
+    padding-top: 25px;
+    padding-left: 10px;
+    
+
+}
+.card-para{
+    font-size: 18px;
+    font-size: 'Lato',sans-serif;
+    opacity: 0.6;
+    padding: 10px;
+    line-height:1.3;
+    
+}
+/* card-section end  */
+/* gallery section start  */
+#gallery-section{
+    height: 650px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+
+}
+.img{
+    margin: 0px 15px;
+}
+.gallery-img{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+/* gallery section end  */
+/* zakat card section start  */
+#zakat-section{
+    height: 800px;
+}
+.zakat-card-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.zakat-card-container{
+    width: 350px;
+    height: 520px;
+    border-radius: 20px;
+    box-shadow: 0.1px 0.1px 1px #333;
+    margin: 0px 15px;
+}
+.zakat-img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.zakat-heading{
+    font-size: 22px;
+    font-family: 'Mina',sans-serif;
+    padding: 10px 20px;
+}
+.zakat-para{
+    font-size: 17px;
+    font-family: 'Mina',sans-serif;
+    padding: 5px 20px;
+}
+.zakat-btn{
+    font-size: 20px;
+    color:tomato;
+    font-weight: bolder;
+    font-family: 'Mina',sans-serif;
+    padding: 0px 0px 10px 20px;
+}
+/* zakat card section end  */
+/* footer start  */
+footer{
+    height: 200px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-heading{
+    color: tomato;
+    font-size: 28px;
+    font-family: 'Abel',sans-serif;
+    padding-bottom: 5px;
+}
+.footer-para{
+    color:azure;
+    font-family: 'Lato',sans-serif;
+    font-style: italic;
+}
+/* footer end  */
